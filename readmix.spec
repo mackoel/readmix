@@ -13,8 +13,6 @@ BuildRoot:	%{_tmppath}/%{name}-%{version}-%{release}
 Requires:	R-core
 Requires:	deepmethod
 
-BuildRequires:	R-devel
-
 %description
 Geographic Population Structure Prediction Tool used at http://chcb.saban-chla.usc.edu/.
 
