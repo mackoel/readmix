@@ -1,5 +1,5 @@
 Name:		readmix
-Version:	2.0.0
+Version:	2.1.0
 Release:	0%{?dist}
 Summary:	Geographic Population Structure Prediction Tool
 
@@ -42,6 +42,9 @@ rm -rf %{buildroot}
 %{_datadir}/readmix
 
 %changelog
+* Mon Aug 24 2015 Kozlov Konstantin <mackoel@gmail.com> - 2.1.0-0
+- Fix filenames with brackets
+
 * Wed Apr 01 2015 Kozlov Konstantin <mackoel@gmail.com> - 2.0.0-0
 - First release
 
