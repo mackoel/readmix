@@ -1,3 +1,4 @@
+%global debug_package %{nil} 
 Name:		readmix
 Version:	2.1.0
 Release:	0%{?dist}
@@ -40,6 +41,9 @@ rm -rf %{buildroot}
 %{_datadir}/readmix
 
 %changelog
+* Wed Jul 06 2016 Kozlov Konstantin <mackoel@gmail.com> - 2.1.0-1
+- Fix debuginfo for F23+
+
 * Mon Aug 24 2015 Kozlov Konstantin <mackoel@gmail.com> - 2.1.0-0
 - Fix filenames with brackets
 
