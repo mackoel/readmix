@@ -1,6 +1,6 @@
 %global debug_package %{nil} 
 Name:		readmix
-Version:	2.1.0
+Version:	2.2.0
 Release:	0%{?dist}
 Summary:	Geographic Population Structure Prediction Tool
 
@@ -41,6 +41,9 @@ rm -rf %{buildroot}
 %{_datadir}/readmix
 
 %changelog
+* Wed Jul 06 2016 Kozlov Konstantin <mackoel@gmail.com> - 2.2.0-0
+- Next version adapted for deepmethod 2
+
 * Wed Jul 06 2016 Kozlov Konstantin <mackoel@gmail.com> - 2.1.0-1
 - Fix debuginfo for F23+
 
